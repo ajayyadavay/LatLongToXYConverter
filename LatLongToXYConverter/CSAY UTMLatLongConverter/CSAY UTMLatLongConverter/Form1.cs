@@ -556,6 +556,7 @@ namespace CSAY_UTMLatLongConverter
             {
                 TxtZone.ReadOnly = true;
                 TxtCM.ReadOnly = false;
+                TxtLatOrigin.Text = 0.ToString();
                 CalcZone = true;
                 CalcCM = false;
             }
@@ -564,6 +565,7 @@ namespace CSAY_UTMLatLongConverter
             {
                 TxtCM.ReadOnly = true;
                 TxtZone.ReadOnly = false;
+                TxtLatOrigin.Text = 0.ToString();
                 CalcZone = false;
                 CalcCM = true;
             }
