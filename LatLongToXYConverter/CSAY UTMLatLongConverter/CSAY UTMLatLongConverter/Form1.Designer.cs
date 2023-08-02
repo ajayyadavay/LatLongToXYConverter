@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLatLongToUTM));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageINPUT = new System.Windows.Forms.TabPage();
             this.LblProjectionMsg = new System.Windows.Forms.Label();
@@ -92,6 +92,9 @@
             this.ColEasting = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColNorthing = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LblTitle = new System.Windows.Forms.Label();
+            this.TxtURL = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.BtnGo = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPageINPUT.SuspendLayout();
             this.tabPageORIGINS.SuspendLayout();
@@ -634,14 +637,14 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.DataGridViewMusking.BackgroundColor = System.Drawing.Color.White;
             this.DataGridViewMusking.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridViewMusking.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridViewMusking.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.DataGridViewMusking.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DataGridViewMusking.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColSN,
@@ -651,14 +654,14 @@
             this.ColNorthing});
             this.DataGridViewMusking.Location = new System.Drawing.Point(75, 293);
             this.DataGridViewMusking.Name = "DataGridViewMusking";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridViewMusking.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridViewMusking.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.DataGridViewMusking.RowHeadersVisible = false;
             this.DataGridViewMusking.Size = new System.Drawing.Size(840, 346);
             this.DataGridViewMusking.TabIndex = 7;
@@ -710,6 +713,44 @@
             this.LblTitle.TabIndex = 12;
             this.LblTitle.Text = "LAT LONG COORD CONVERTER";
             // 
+            // TxtURL
+            // 
+            this.TxtURL.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtURL.ForeColor = System.Drawing.Color.Blue;
+            this.TxtURL.Location = new System.Drawing.Point(606, 66);
+            this.TxtURL.Name = "TxtURL";
+            this.TxtURL.Size = new System.Drawing.Size(546, 30);
+            this.TxtURL.TabIndex = 15;
+            this.TxtURL.Text = "https://github.com/ajayyadavay/CSAY_LatLongUTMToFrom_Converter";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label6.Location = new System.Drawing.Point(662, 40);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(541, 23);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Download link  latest Version 2.0 with UTM to LatLong conversion added";
+            // 
+            // BtnGo
+            // 
+            this.BtnGo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.BtnGo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(157)))), ((int)(((byte)(88)))));
+            this.BtnGo.FlatAppearance.BorderSize = 0;
+            this.BtnGo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(117)))), ((int)(((byte)(64)))));
+            this.BtnGo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(191)))), ((int)(((byte)(111)))));
+            this.BtnGo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnGo.ForeColor = System.Drawing.Color.White;
+            this.BtnGo.Location = new System.Drawing.Point(1158, 66);
+            this.BtnGo.Name = "BtnGo";
+            this.BtnGo.Size = new System.Drawing.Size(45, 30);
+            this.BtnGo.TabIndex = 16;
+            this.BtnGo.Text = "Go";
+            this.BtnGo.UseVisualStyleBackColor = false;
+            this.BtnGo.Click += new System.EventHandler(this.BtnGo_Click);
+            // 
             // FrmLatLongToUTM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -717,6 +758,9 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1222, 672);
             this.ContextMenuStrip = this.contextMenuStrip1;
+            this.Controls.Add(this.BtnGo);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.TxtURL);
             this.Controls.Add(this.LblMessage);
             this.Controls.Add(this.LblTitle);
             this.Controls.Add(this.DataGridViewMusking);
@@ -803,6 +847,9 @@
         private System.Windows.Forms.TextBox TxtZone;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox ComboBoxCMZone;
+        private System.Windows.Forms.TextBox TxtURL;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button BtnGo;
     }
 }
 

@@ -18,3 +18,18 @@ E:\AY\S\S2\VS_2019\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\C
 E:\AY\S\S2\VS_2019\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.csproj.CoreCompileInputs.cache
 E:\AY\S\S2\VS_2019\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.exe
 E:\AY\S\S2\VS_2019\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.pdb
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\bin\Debug\CSAY UTMLatLongConverter.exe.config
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\bin\Debug\CSAY UTMLatLongConverter.exe
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\bin\Debug\CSAY UTMLatLongConverter.pdb
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.csproj.AssemblyReference.cache
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.csproj.SuggestedBindingRedirects.cache
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY_UTMLatLongConverter.FrmLatLongToUTM.resources
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY_UTMLatLongConverter.Properties.Resources.resources
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.csproj.GenerateResource.cache
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.csproj.CoreCompileInputs.cache
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.exe
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.pdb
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\bin\Debug\CSAY UTMLatLongConverter.exe.manifest
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\bin\Debug\CSAY UTMLatLongConverter.application
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.exe.manifest
+F:\VBStudio\LatLongToXYConverter\LatLongToXYConverter\CSAY UTMLatLongConverter\CSAY UTMLatLongConverter\obj\Debug\CSAY UTMLatLongConverter.application

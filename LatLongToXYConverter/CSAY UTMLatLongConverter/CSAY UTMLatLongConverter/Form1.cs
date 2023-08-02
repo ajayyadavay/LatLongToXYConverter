@@ -67,6 +67,9 @@ namespace CSAY_UTMLatLongConverter
 
         private void FrmLatLongToUTM_Load(object sender, EventArgs e)
         {
+            TxtURL.BackColor = Color.White;
+            TxtURL.ForeColor = Color.Blue;
+            TxtURL.ReadOnly = true;
             AddElementToComboBoxProjection();
             AddElementToComboBoxDatum();
             AddElementToComboBoxCMZone();
@@ -400,7 +403,7 @@ namespace CSAY_UTMLatLongConverter
 
         private void aboutToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            MessageBox.Show("Created in C# \nVersion 1.0\nAjay Yadav\nRequirement: Dot Net Framework Required : 4.6.1\nIt is Accurate to about a centimeter at 7° of longitude from the central meridian","About");
+            MessageBox.Show("Created in C# \nVersion 1.0\nAjay Yadav\nRequirement: Dot Net Framework Required : 4.6.1+\nIt is Accurate to about a centimeter at 7° of longitude from the central meridian","About");
         }
 
         private void ComboBoxProjection_SelectedIndexChanged(object sender, EventArgs e)
@@ -588,6 +591,11 @@ namespace CSAY_UTMLatLongConverter
 
             }
             
+        }
+
+        private void BtnGo_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer.exe", TxtURL.Text);
         }
 
         private void TxtCM_TextChanged(object sender, EventArgs e)
